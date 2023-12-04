@@ -342,13 +342,13 @@ const Navigation = () => {
       </div>
       {open === false ? (
         <GiHamburgerMenu
-          className=" cursor-pointer lg:hidden flex  z-[11]"
+          className=" cursor-pointer lg:hidden flex  z-[61]"
           size={35}
           onClick={() => setOpen(true)}
         />
       ) : (
         <MdOutlineClose
-          className=" cursor-pointer flex lg:hidden  z-[11]"
+          className=" cursor-pointer flex lg:hidden  z-[61]"
           size={35}
           onClick={() => setOpen(false)}
         />
